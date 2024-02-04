@@ -1,0 +1,6 @@
+export { default as Start } from './Start/Start'
+export { default as Board } from './Board/Board'
+export { default as XIcon } from './icons/XIcon'
+export { default as OIcon } from './icons/OIcon'
+export { default as RestartIcon } from './icons/RestartIcon'
+export { default as Modal } from './Modal/Modal'

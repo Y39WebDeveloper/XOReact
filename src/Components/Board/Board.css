@@ -1,0 +1,65 @@
+.board-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.board-header .xo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.board-turn{
+    border-radius: 5px;
+    background-color: var(--color-bg-light);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 4px 0 #00000033;
+    font-weight: bold;
+}
+.board-turn svg{
+    width: 20px;
+    margin-right: 10px;
+}
+.board-restart svg{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+    transition: .3s;
+}
+.board-restart:active svg{
+    transform: rotate(-180deg);
+}
+
+.board-body{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+.board-body .card{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-inline: 10px;
+}
+.board-body .card.active.shadow-blue{
+    background-color: var(--color-blue);
+}
+.board-body .card.active.shadow-yellow{
+    background-color: var(--color-yellow);
+}
+.board-footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.board-footer .card{
+    gap: 15px;
+}

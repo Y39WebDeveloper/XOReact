@@ -1,0 +1,50 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content{
+    width: 100%;
+    background-color: var(--color-bg-light);
+}
+.score{
+    text-align: center;
+}
+.score h3{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+.score-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.restart{
+    text-align: center;
+}
+.restart h3{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+.restart-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
