@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/XOReact/static/css/main.f01e858e.css",
+    "main.js": "/XOReact/static/js/main.e98c4349.js",
+    "index.html": "/XOReact/index.html",
+    "main.f01e858e.css.map": "/XOReact/static/css/main.f01e858e.css.map",
+    "main.e98c4349.js.map": "/XOReact/static/js/main.e98c4349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01e858e.css",
+    "static/js/main.e98c4349.js"
+  ]
+}
